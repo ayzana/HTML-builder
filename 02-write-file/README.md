@@ -52,7 +52,7 @@ _Please note, if you are seeking information in Russian, be aware that translati
   - [Node.js Process Signal Events](https://www.geeksforgeeks.org/node-js-process-signal-events/)
 - Readline:
   - [Readline](https://nodejs.org/api/readline.html)
-  - [Node.js Readline() Module](https://www.geeksforgeeks.org/node-js-readline-module/)
+  - [Node.js Readline() Module](https://www.geeksforgeks.org/node-js-readline-module/)
 - Events:
   - [Understanding Node.js Event-Driven Architecture](https://www.freecodecamp.org/news/understanding-node-js-event-driven-architecture-223292fcbc2d/)
   - [The Node.js Event emitter](https://nodejs.org/en/learn/asynchronous-work/the-nodejs-event-emitter)
