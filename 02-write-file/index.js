@@ -5,9 +5,9 @@ let rl = readline.createInterface(process.stdin, process.stdout);
 rl.question('What is your name?', (name) => {
   writeName.write(name);
   console.log('Hello, ' + name);
-});
-process.stdin.on('data', (data) => {
-  if (data.toString() == 'exit') {
-    process.exit();
-  }
+  rl.on('line', (input) => {
+    if (input.toString() == 'exit') {
+      rl.close();
+    }
+  });
 });
