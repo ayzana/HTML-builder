@@ -6,7 +6,7 @@ fs.readdir(path.join(__dirname, 'secret-folder'), (error, file) => {
   } else {
     file.forEach((el) => {
       fs.stat(`03-files-in-folder/secret-folder/${el}`, (err, stats) => {
-        console.log(`${el} - size: ${stats.size} birthtime:  ${stats.atime}`);
+        console.log(`${el} - ${path.extname(el)} - ${stats.size / 1000} kb`);
       });
     });
   }
