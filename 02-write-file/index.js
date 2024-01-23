@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-let writeName = fs.createWriteStream(path.join(__dirname, 'name.txt'));
+let writeName = fs.createWriteStream(path.join(__dirname, 'text.txt'));
 const readline = require('readline');
 let rl = readline.createInterface(process.stdin, process.stdout);
 rl.question('Hello, enter text, please', () => {
